@@ -1,3 +1,5 @@
+Repo to illustrate an issue logged with Pulumi: https://github.com/pulumi/pulumi/issues/4621
+
 ###  Context 
 We use a lib (Morphic - @morphic-ts/batteries) that keeps our code clean and strongly typed on all our projects. it is based on io-ts and uses native code. 
 
@@ -15,7 +17,3 @@ We organized our code this way:
 We cannot find a way to not have serilization issue using this lib. The only way we can make it work is to import @morphic-ts/batteries at the top of index.ts, create Models within the lambda function callback itself and inject it down 3 levels 
 
 Is there anyway to make this work? we have models everywhere and the only solution we found is unacceptable for maintenance and clarity reasons. 
-
-We have created a repo with a single level to illustrate our scenario: https://github.com/haredev/pulumiSerializationTest
-
-see index.ts
