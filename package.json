@@ -1,0 +1,15 @@
+{
+    "name": "pulumiSerialization",
+    "devDependencies": {
+        "@types/node": "^10.0.0"
+    },
+    "dependencies": {
+        "@morphic-ts/batteries": "^1.8.0-alpha.0",
+        "@pulumi/aws": "^2.0.0",
+        "@pulumi/awsx": "^0.20.0",
+        "@pulumi/pulumi": "^2.0.0",
+        "io-ts": "^2.2.2",
+        "io-ts-types": "^0.5.6",
+        "tslib": "^1.12.0"
+    }
+}
